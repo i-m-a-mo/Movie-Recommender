@@ -1,0 +1,40 @@
+
+
+* {
+    background-color: #324e6b;
+    color: #9FADBD;
+}
+
+h1 {
+    /* display: flex;
+    justify-content: center;   */
+    font-size: 40px;
+    padding-top: 10px;
+    color: #9FADBD;
+} 
+
+
+
+/* ul {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;  
+}*/
+
+
+h2{
+    padding-top: 2%;
+    display: flex;
+    justify-content: center; 
+}
+
+iframe{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+} 
+.recs a {
+  color:#3366BB;
+
+}

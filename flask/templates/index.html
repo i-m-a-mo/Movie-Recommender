@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Camola Movie Recommender</title>
+  <link rel='stylesheet' href='static/css/styles.css'>
+</head>
+
+
+
+<body>
+
+  <h1>{{ title }} </h1>
+  <img src="static/img/meme2.jpg" alt="Best Movie Ever!" width="500" class='center'>
+  <br>
+  <form action="/recommender">         <!-- This make you go to /recommender url after finish the ratings and it sents then to /recommender-->          
+    <p>Please rate the following movies on a scale from 0.0 to 5.0:</p>
+    <div class="grid">
+      <!-- Movie 1: -->                                                <!-- I would leave this part hard-coded (i.e. the "movies"-fiels´d)  -->
+      <div class="row">
+        <label for="genre1" class="cell">Drama: </label>
+        <select name="genre1" id="genre" class="cell">
+            {% for i in range(10)%}
+            <option value={{ movie_dict['Drama'][i] }} >{{ labels['Drama'][i] }}</option>
+            {% endfor %}
+        <input type="text" name="rating1" placeholder="0.0 - 5.0" class="cell"><br>
+        <br>
+      </div>
+      <div class="row">
+        <label for="genre2" class="cell">Action: </label>
+        <select name="genre2" id="genre" class="cell">      
+            {% for i in range(10)%}
+            <option value={{ movie_dict['Action'][i] }} >{{ labels['Action'][i] }}</option>
+            {% endfor %}
+        <input type="text" name="rating2" placeholder="0.0 - 5.0" class="cell"><br>
+        <br>
+      </div>
+      <div class="row">
+        <label for="genre3" class="cell">Comedy: </label>
+        <select name="genre3" id="genre" class="cell">      
+            {% for i in range(10)%}
+            <option value={{ movie_dict['Comedy'][i] }} >{{ labels['Comedy'][i] }}</option>
+            {% endfor %}
+        <input type="text" name="rating3" placeholder="0.0 - 5.0" class="cell"><br>
+        <br>
+      </div>
+    </div>
+      <input type="submit" class='submit-button'>
+ 
+
+  
+  </form>
+</body>
+
+</html>
+

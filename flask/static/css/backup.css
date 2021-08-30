@@ -1,0 +1,28 @@
+
+.content label {
+    color: #9E7987;
+    display: inline-block;
+    vertical-align:middle;
+
+    /* column-count: 3; */
+    /* margin: 0 auto;
+    width: 35%; */
+  }
+
+.content select {
+    margin-left: auto;
+    margin-right: auto; 
+    width: 20%;
+    color: #0E7987;    
+    justify-content: center;
+    
+    /* column-count: 3; */
+    /* margin-left: 1em; */
+    /* margin: auto; */
+    /* display: flex;
+    justify-content: space-around;
+    text-align: center; */
+    /*position: absolute;
+    margin-right: 1%; */
+    /* vertical-align:middle; */
+}
