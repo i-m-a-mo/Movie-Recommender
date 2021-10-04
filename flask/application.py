@@ -29,7 +29,7 @@ def hello_world():
 @app.route("/recommender")
 def recommender():
     html_form_data = dict(request.args)   ## this request is taking the new user inputs
-    print(html_form_data)
+    print("THIS IS THE FORM DATA --- ", html_form_data)
     userp = createuserp(html_form_data)
     top_movies = get_recommendations(userp)
     print(top_movies)

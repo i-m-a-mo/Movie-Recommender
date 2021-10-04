@@ -18,8 +18,13 @@ with open("../model/nmf.pickle", "rb") as f:
     model = pickle.load(f)
 
 # Table with index and movie names
-with open("../model/movies_ind.pickle", "rb") as h: 
-    movies_ind = pickle.load(h)
+# with open("../model/movies_ind.pickle", "rb") as h: 
+#     movies_ind = pickle.load(h)
+
+movies_ind = pd.read_csv('../model/ml-latest-small/movies.csv')#, index_col=0)
+movies_ind.reset_index(level=0, inplace=True)
+
+# movies_ind['index'] = movies_ind.index
 
 # R
 with open("../model/R_matrix.pickle", "rb") as k:
