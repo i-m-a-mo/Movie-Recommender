@@ -11,6 +11,11 @@ How it works:
 * the model is trained on a database of movies (including user ratings) from MovieLens.org
 * the list of recommendations is then presented to the user on the web interface
 
+<img src="flask/static/img/ScreenShot_StartPage.png" height="300" align="left">
+<span style="float:right;"> <img src="flask/static/img/ScreenShot_Recs.png" height="300"/> </span>
+
+
+![](flask/static/img/ScreenShot_StartPage.png)
 <!-- 
 * recommendation is based on the user's rating of 3 movies (Drama, Action, Comedy)
 -->
