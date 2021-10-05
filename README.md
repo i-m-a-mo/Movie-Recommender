@@ -14,8 +14,8 @@ How it works:
 <img src="flask/static/img/ScreenShot_StartPage.png" height="300" align="left">
 <span style="float:right;"> <img src="flask/static/img/ScreenShot_Recs.png" height="300"/> </span>
 
-
+<!--
 ![](flask/static/img/ScreenShot_StartPage.png)
-<!-- 
+ 
 * recommendation is based on the user's rating of 3 movies (Drama, Action, Comedy)
 -->
