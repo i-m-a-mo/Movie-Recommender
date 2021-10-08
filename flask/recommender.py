@@ -10,7 +10,7 @@ import pandas as pd
 #%% Pickle     
 
 # KNN for missing values    
-with open("../model/knn2.pickle", "rb") as g:
+with open("../model/knn.pickle", "rb") as g:
     imputer = pickle.load(g)
 
 # Model NMF:

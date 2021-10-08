@@ -1,3 +1,6 @@
+# Folders
+_not_on_git/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

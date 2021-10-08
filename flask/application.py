@@ -2,7 +2,7 @@
 Module that controls the workfow of the web application. Central python file that ties everything together for the web application.
 """
 
-from simple_recommerder import createuserp, get_recommendations
+from recommender import createuserp, get_recommendations
 from flask import Flask, render_template, request
 
 from movie_function import get_random_movies, movie_labels
